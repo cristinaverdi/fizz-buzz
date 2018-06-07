@@ -1,10 +1,10 @@
 package fizzbuzz;
 
-import junitparams.JUnitParamsRunner;
-import junitparams.Parameters;
-import org.junit.Before;
 import org.junit.Test;
+import org.junit.Before;
+import junitparams.Parameters;
 import org.junit.runner.RunWith;
+import junitparams.JUnitParamsRunner;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
